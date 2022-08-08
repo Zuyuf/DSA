@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "npm run dev:leetcode:easy Palindrome.ts",
+    "dev": "npm run dev:leetcode:easy ValidParentheses.ts",
     "dev:leetcode:easy": "cd ./leetcode/easy/ && npx nodemon --delay 2",
     "dev:lsq": "npx nodemon --delay 2 ./lsq.ts",
     "unit-test": "TZ=UTC jest"
