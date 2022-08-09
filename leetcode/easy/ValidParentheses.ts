@@ -19,26 +19,26 @@ function isValid(s: string): boolean {
 };
 
 console.time('time1');
-const result = isValid("()");
+const isValid1 = isValid("()");
 console.timeEnd('time1');
-console.log('isValid = ', result, ' => ', result === true);
+console.log('isValid = ', isValid1, ' => ', isValid1 === true);
 
 console.time('time1');
-const result2 = isValid("()[]{}");
+const isValid2 = isValid("()[]{}");
 console.timeEnd('time1');
-console.log('isValid = ', result2, ' => ', result2 === true);
+console.log('isValid = ', isValid2, ' => ', isValid2 === true);
 
 console.time('time1');
-const result3 = isValid("(]");
+const isValid3 = isValid("(]");
 console.timeEnd('time1');
-console.log('isValid = ', result3, ' => ', result3 === false);
+console.log('isValid = ', isValid3, ' => ', isValid3 === false);
 
 console.time('time1');
-const result4 = isValid("((");
+const isValid4 = isValid("((");
 console.timeEnd('time1');
-console.log('isValid = ', result4, ' => ', result4 === false);
+console.log('isValid = ', isValid4, ' => ', isValid4 === false);
 
 console.time('time1');
-const result5 = isValid("(){}}{");
+const isValid5 = isValid("(){}}{");
 console.timeEnd('time1');
-console.log('isValid = ', result5, ' => ', result5 === false);
+console.log('isValid = ', isValid5, ' => ', isValid5 === false);
