@@ -42,3 +42,5 @@ console.time('time1');
 const isValid5 = isValid("(){}}{");
 console.timeEnd('time1');
 console.log('isValid = ', isValid5, ' => ', isValid5 === false);
+
+export default { isValidParentheses: isValid }
