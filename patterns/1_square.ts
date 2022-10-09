@@ -18,3 +18,6 @@ function printSquare(input: number) {
 }
 
 printSquare(5);
+
+export {}; // 👈️ make file ES Module
+// otherwise causes the Duplicate function implementation error glitch due to legacy script files
