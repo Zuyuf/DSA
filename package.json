@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "npm run dev:leetcode:easy RemoveElement.ts",
+    "exec": "npx ts-node ",
+    "dev": "npm run ./temp/temp.ts",
     "dev:leetcode:easy": "cd ./leetcode/easy/ && npx nodemon --delay 2",
     "dev:lsq": "npx nodemon --delay 2 ./lsq.ts",
     "unit-test": "TZ=UTC jest"
